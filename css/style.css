@@ -34,4 +34,13 @@ a{
 }
 .btn-header:hover{
     box-shadow: 2px 2px rgba(0, 20, 300, 0.5);
+    cursor: pointer;
 }
+.jumbotron{
+    background-size: cover;
+    min-height: 590px;
+    width: auto;
+    background-image: url(../img/jumbo.png);
+}
+
+
