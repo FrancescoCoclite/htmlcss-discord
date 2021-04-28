@@ -8,6 +8,10 @@
     display: table;
     clear: both;
 }
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
 header{
     height: 70px;
     width: 100%;
@@ -42,7 +46,7 @@ a{
     box-shadow: 2px 2px rgba(0, 20, 300, 0.5);
     cursor: pointer;
 }
-.jumbotron{
+.jumbo{
     background-size: cover;
     min-height: 600px;
     width: 100%;
@@ -52,6 +56,7 @@ a{
     padding-top: 200px;
     line-height: 150px;
     font-size: 70px;
+    text-align: center;
     color:white;
 }
 .text{
@@ -60,19 +65,21 @@ a{
     margin: 0 20%;
 }
 .btn{
-    margin:20px;
-    padding 30px;
     border-radius: 15px;
     padding: 10px;
     width: 20%;
     border: none;
     cursor: pointer;
 }
+.bottoni{
+    margin-left: 33% ;
+}
 form{
     display:inline;
 }
 .white{
     background-color: white;
+    margin:10px 20px;
 }
 i{
     margin-right: 10px;
@@ -83,24 +90,21 @@ i{
 }
 .container1{
     position: relative;
+    
 }
 .img-gruppi{
     float: left;
     width: 40%;
-    top: 50px;
-    left: 50px;
-    vertical-align: middle;
+    top: 40px;
+    left: 40px;
 }
 .testo-dx{
-    width: 60%;
+    width: 40%;
     float: left;
     margin-top: 50px;
+    margin-left: 20%;
+}
 
-    
-}
-.container1{
-    margin-top: 100px;
-}
 .titolo-grp{
     font-size: 50px;
 }
@@ -110,12 +114,11 @@ i{
 .img-trovarsi{
     float: right;
     width: 40%;
+    margin-right:20% ;
     top: 50px;
-    left: 50px;
-    vertical-align: middle;
 }
 .testo-sx{
-    width: 60%;
+    width: 40%;
     float: right;
     margin-top: 50px;
 }
@@ -125,5 +128,9 @@ i{
     width: 100%;
     background-image: url(../img/wave.svg);
     position: absolute;
+}
+.foto3{
+    margin-top: 100px;
+
 }
 
