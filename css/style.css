@@ -1,4 +1,5 @@
 *{
+font-family: 'Mukta', sans-serif;
  margin: 0;
  padding: 0;
  box-sizing: border-box;
@@ -37,7 +38,7 @@ a{
 .btn-header{
     float: right;
     margin:20px;
-    padding 30px;
+    padding:30px;
     border-radius: 15px;
     padding: 10px;
     border:  #3161E0;
@@ -103,6 +104,7 @@ i{
     float: left;
     margin-top: 50px;
     margin-left: 20%;
+    line-height: 50px;
 }
 
 .titolo-grp{
@@ -130,7 +132,56 @@ i{
     position: absolute;
 }
 .foto3{
-    margin-top: 100px;
-
+    margin-top: 50px;
 }
+.fot-container{
+    background-color: #23272A;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    padding: 100px 150px;
+}
+.titolo-fot{
+    font-size: 40px;
+    max-width: 270px;
+    color: #727DA7;
+}
+.bandiera{
+    position: absolute;
+}
+.ita{
+    height: 20px;
+}
+span{
+    color: white;
+}
+.liste li{
+    display:block;   
+}
+.liste a{
+    line-height: 40px;
+}
+.liste ul{
+    position: absolute;
+    left: 500px;
+    top: 110px;
+    margin-right: 200px;
+}
+.liste .sezione2{
+    position: absolute;
+    left: 700px;
+    top: 110px;
+}
+.liste .sezione3{
+    position: absolute;
+    left: 900px;
+    top: 110px;
+}
+.liste .sezione4{
+    position: absolute;
+    left: 1100px;
+    top: 110px;
+}
+
+
 
