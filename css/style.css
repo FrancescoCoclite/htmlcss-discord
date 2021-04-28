@@ -68,6 +68,9 @@ a{
     border: none;
     cursor: pointer;
 }
+form{
+    display:inline;
+}
 .white{
     background-color: white;
 }
@@ -83,23 +86,44 @@ i{
 }
 .img-gruppi{
     float: left;
+    width: 40%;
     top: 50px;
     left: 50px;
+    vertical-align: middle;
 }
-.text-dx{
+.testo-dx{
+    width: 60%;
     float: left;
-    margin-top: 300px;
-    margin-right: 900px;
+    margin-top: 50px;
+
+    
 }
 .container1{
     margin-top: 100px;
 }
 .titolo-grp{
     font-size: 50px;
-    max-width: 1000px;
 }
 .text-grp{
     font-size: 40px;
-    max-width: 1000px;
+}
+.img-trovarsi{
+    float: right;
+    width: 40%;
+    top: 50px;
+    left: 50px;
+    vertical-align: middle;
+}
+.testo-sx{
+    width: 60%;
+    float: right;
+    margin-top: 50px;
+}
+.onda{
+    opacity: 0.1;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/wave.svg);
+    position: absolute;
 }
 
