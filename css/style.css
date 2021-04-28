@@ -3,11 +3,16 @@
  padding: 0;
  box-sizing: border-box;
 }
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 header{
     height: 70px;
     width: 100%;
     background-color: #3161E0;
-    text-align: center;
+    text-align: center; 
 }
 #logo{
     vertical-align: middle;
@@ -73,6 +78,28 @@ i{
     background-color: black;
     color:white;
 }
-
-
+.container1{
+    position: relative;
+}
+.img-gruppi{
+    float: left;
+    top: 50px;
+    left: 50px;
+}
+.text-dx{
+    float: left;
+    margin-top: 300px;
+    margin-right: 900px;
+}
+.container1{
+    margin-top: 100px;
+}
+.titolo-grp{
+    font-size: 50px;
+    max-width: 1000px;
+}
+.text-grp{
+    font-size: 40px;
+    max-width: 1000px;
+}
 
